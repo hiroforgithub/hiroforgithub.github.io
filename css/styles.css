@@ -1,0 +1,475 @@
+h1 {
+color: gray;
+text-align: center;
+}
+
+h2 {
+  font-size: 17px;
+}
+
+h3 {
+  color: gray;
+  text-align: center;
+  font-size: 15px;
+}
+
+nav {
+height: 50px;
+width: 100%;
+background-color: whitesmoke;
+}
+
+.header-ul {
+display: flex;
+justify-content: space-between;
+width: 400px;
+margin-right: 0px;
+margin-left: auto;
+}
+
+.header-ul li {
+list-style: none;
+font-size: 15px;
+margin-right: 7px;
+font-weight: bold;
+}
+
+.header-ul a {
+text-decoration: none;
+color: gray;
+}
+
+.header-ul li:hover {
+opacity: 0.5;
+cursor: pointer;
+}
+
+.main-v {
+position: relative;
+}
+
+.main-v video {
+width: 100%;
+height: 100%;
+}
+
+.text {
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+
+.main-v p {
+color: white;
+font-size: 50px;
+font-weight: bold;
+}
+
+.my-img {
+width: 100%;
+height: auto;
+}
+
+.my-img img{
+width: 200px;
+height: auto;
+margin: 100px auto 0;
+display: block;
+}
+
+.about,.skills, .works{
+margin-bottom: 100px;
+}
+
+.about h1,p {
+color: gray;
+text-align: center;
+}
+
+.skills h1,li {
+color: gray;
+text-align: center;
+}
+
+.skills ul {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.skills li {
+  text-align: left;
+}
+
+.works {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.work {
+width: 28%;
+}
+
+.works h1,h2 {
+color: gray;
+text-align: center;
+}
+
+.work img{
+display: block;
+width: 300px;
+height: auto;
+margin: 0 auto;
+border: 2px solid gray;
+cursor: pointer;
+}
+
+.work {
+margin-bottom: 80px;
+}
+
+#mask {
+background: rgba(0, 0, 0, 0.4);
+position: fixed;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+}
+
+#modal {
+width: 300px;
+position: absolute;
+top: 1000px;
+left: 0;
+right: 0;
+margin: 0 auto;
+}
+
+#mask.hidden {
+display: none;
+}
+
+#modal.hidden {
+transform: translate(0, -10000px);
+}
+
+
+
+@media screen and (max-width: 959px) {
+  h1 {
+    color: gray;
+    text-align: center;
+    }
+    
+    h3 {
+      color: gray;
+      text-align: center;
+      font-size: 15px;
+    }
+    
+    nav {
+    height: 50px;
+    width: 100%;
+    background-color: whitesmoke;
+    }
+    
+    .header-ul {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-right: 0px;
+    margin-left: auto;
+    }
+    
+    .header-ul li {
+    list-style: none;
+    font-size: 15px;
+    margin-right: 7px;
+    font-weight: bold;
+    }
+    
+    .header-ul a {
+    text-decoration: none;
+    color: gray;
+    }
+    
+    .header-ul li:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    }
+    
+    .main-v {
+    position: relative;
+    }
+    
+    .main-v video {
+    width: 100%;
+    height: 100%;
+    }
+    
+    .text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    }
+    
+    .main-v p {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    }
+    
+    .my-img {
+    width: 100%;
+    height: auto;
+    }
+    
+    .my-img img{
+    width: 200px;
+    height: auto;
+    margin: 100px auto 0;
+    display: block;
+    }
+    
+    .about,.skills, .works{
+    margin-bottom: 100px;
+    }
+    
+    .about h1,p {
+    color: gray;
+    text-align: center;
+    }
+    
+    .skills h1,li {
+    color: gray;
+    text-align: center;
+    }
+    
+    .skills ul {
+      width: 200px;
+      margin: 0 auto;
+    }
+    
+    .skills li {
+      text-align: left;
+    }
+    
+    .works {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+    
+    .work {
+    width: 36%;
+    }
+    
+    .works h1,h2 {
+    color: gray;
+    text-align: center;
+    }
+    
+    .work img{
+    display: block;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    border: 2px solid gray;
+    cursor: pointer;
+    }
+    
+    .work {
+    margin-bottom: 80px;
+    }
+    
+    #mask {
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    }
+    
+    #modal {
+    width: 300px;
+    position: absolute;
+    top: 1000px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    }
+    
+    #mask.hidden {
+    display: none;
+    }
+    
+    #modal.hidden {
+    transform: translate(0, -10000px);
+    }
+}
+ 
+
+@media (max-width: 700px) {
+  h1 {
+    color: gray;
+    text-align: center;
+    }
+    
+    h3 {
+      color: gray;
+      text-align: center;
+      font-size: 15px;
+    }
+    
+    nav {
+    height: 50px;
+    width: 100%;
+    background-color: whitesmoke;
+    }
+    
+    .header-ul {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin-right: 0px;
+    margin-left: auto;
+    }
+    
+    .header-ul li {
+    list-style: none;
+    font-size: 15px;
+    margin-right: 7px;
+    font-weight: bold;
+    }
+    
+    .header-ul a {
+    text-decoration: none;
+    color: gray;
+    }
+    
+    .header-ul li:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    }
+    
+    .main-v {
+    position: relative;
+    }
+    
+    .main-v video {
+    width: 100%;
+    height: 100%;
+    }
+    
+    .text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    }
+    
+    .main-v p {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    }
+    
+    .my-img {
+    width: 100%;
+    height: auto;
+    }
+    
+    .my-img img{
+    width: 200px;
+    height: auto;
+    margin: 100px auto 0;
+    display: block;
+    }
+    
+    .about,.skills, .works{
+    margin-bottom: 100px;
+    }
+    
+    .about h1,p {
+    color: gray;
+    text-align: center;
+    }
+
+    .skills h1,li {
+    color: gray;
+    text-align: center;
+    }
+    
+    .skills ul {
+      width: 200px;
+      margin: 0 auto;
+    }
+    
+    .skills li {
+      text-align: left;
+    }
+    
+    /* .works {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    } */
+    
+    .work {
+    width: 100%;
+    }
+    
+    .works h1,h2 {
+    color: gray;
+    text-align: center;
+    }
+    
+    .work img{
+    display: block;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    border: 2px solid gray;
+    cursor: pointer;
+    }
+    
+    .work {
+    margin-bottom: 80px;
+    }
+    
+    #mask {
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    }
+    
+    #modal {
+    width: 300px;
+    position: absolute;
+    top: 1000px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    }
+    
+    #mask.hidden {
+    display: none;
+    }
+    
+    #modal.hidden {
+    transform: translate(0, -10000px);
+    }
+}

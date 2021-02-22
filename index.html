@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="header-ul">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#works">WORKS</a></li>
+        <!-- <li><a href="#contact">CONTACT</a></li> 実装予定 -->
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="main-v">
+      <video autoplay muted loop src="production ID_4923273.mp4"></video>
+      <div class="text">
+        <p>Portfolio</p>
+      </div>
+    </div>
+    
+    <div class="about" id="about">
+      <div class="my-img">
+        <img class="img" src="images/profile.png">
+      </div>
+      <h1>About Me</h1>
+      <p>山本裕之</p>
+      <p>27歳東京都住み</p>
+      <p>Html,Css,JavaScript,Rubyを扱い、ホームページ作成からアプリ開発をします！</p>
+    </div>
+    
+    <div class="skills" id="skills">
+      <h1>Web Skills</h1>
+      <ul>
+        <li>HTML5/CSS3</li>
+        <li>Ruby</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
+    
+    <h1>Works</h1>
+    <div class="works" id="works">
+      <div class="work">
+        <h2>本レビュー投稿アプリ</h2>
+        <!-- <h3>Ruby on rails</h3> -->
+        <img class="img" src="images/book.png">
+      </div>
+
+      <div class="work">
+        <h2>フリーマーケットアプリ</h2>
+        <!-- <h3>Ruby on rails</h3> -->
+        
+        <img id="open" class="img" src="images/furima.png">
+        <div id="mask" class="hidden"></div>
+        <img id="modal" class="hidden" src="images/furima-long.png">
+        
+      </div>
+      
+      <div class="work">
+        <h2>英単語クイズアプリ</h2>
+        <!-- <h3>JavaScript</h3> -->
+        <img class="img" src="images/english.png">
+      </div>
+    </div>
+  </div>
+  
+</main>
+<footer>
+  <!-- <div class="contact">
+    <h1>CoHTML5・CSS3</HTML:5>
+    <p>お問い合わせください</p>
+  </div> -->
+  </footer>
+
+  <script src="js/main.js"></script>
